@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"> </meta>
+    <title></title>
+    <style>
+        html,body{
+            height: 99%;
+
+        }
+        .body-fluid{
+            height: 100%;
+        }
+        .flex_cotainer{
+            height: 100%;
+            background-color: silver;
+            display: -webkit-flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+        }
+        .flex_cotainer div{
+
+            display:flex;
+        }
+        .flex-body{
+            flex:11;
+            width:100%;
+            justify-content:flex-start;
+        }
+        .flex-foot{
+            flex:1;
+            background-color: blue;
+            width: 100%;
+        }
+        .flex-leftMemu{
+            flex:1;
+
+            background-color: red;
+        }
+        .flex-content{
+            flex:11;
+
+            flex-direction:column;
+        }
+        .flex-content-head{
+            width:100%;
+            flex:1;
+            background-color: yellowgreen;
+            background-image:-webkit-gradient(linear,left top,left bottom,from(#6facd5),to(#497bae));
+            text-shadow: 0 1px 0 #3e6790;
+        }
+        .flex-content-body{
+            width:100%;
+
+            flex:11;
+        }
+        .flex-content-column6{
+            flex:1;
+            width: 100%;
+            background-color: blueviolet;
+            border: 1px solid;
+        }
+        .ui-title{
+            font-size: 16px;
+            color: #fff;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+<div class="body-fluid">
+    <div class="flex_cotainer">
+        <div class="flex-body ">
+            <div class="flex-leftMemu">left menu</div>
+            <div class="flex-content">
+                <div class="flex-content-head"><h1 class="ui-title">首页</h1></div>
+                <div class="flex-content-body">
+                    <div class="flex-content-column6">       这事中间内容       </div>
+                    <div class="flex-content-column6">       这事中间内1231123123    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-foot"> item2</div>
+
+    </div>
+</div>
+</body>
+</html>
