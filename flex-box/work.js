@@ -18,7 +18,8 @@ function foo(){
 	console.log("foo is rum");
 }
 
-//simple XHR request in pure JavaScript
+//simple XHR request in pure JavaScript，测试xhr 简单，后续需要增强
+
 function load(url, callback) {
 	var xhr;
 
@@ -63,6 +64,7 @@ function load(url, callback) {
 
 
 
+//处理xml相关，worker中不能访问dom 所以采取sax的方式
 
 
 // =========================================================================
