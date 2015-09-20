@@ -69,6 +69,12 @@
             text-align: center;
             vertical-align: middle;
         }
+        ul li:not(:first-child):not(:last-child){
+            background-color: red;
+        }
+        /*ul li:nth-child(even){
+            background-color: red;
+        }*/
     </style>
 </head>
 <body>
@@ -88,5 +94,14 @@
 
     </div>
 </div>
+<div>
+    <ul>
+        <li>11</li>
+        <li>22</li>
+        <li>33</li>
+        <li>44</li>
+    </ul>
+</div>
+
 </body>
 </html>
