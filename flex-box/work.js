@@ -1,13 +1,15 @@
 onmessage=function(evt){
 	console.log(evt.data);
 	importScripts("xmlsax.js");
+	importScripts("xmlw3cdom.js");
 	
 	foo();
 	
 	load("data.xml",function(res){
 		console.log(res);
 		var data=res.responseText;
-		startParser(data);
+		// startParser(data);
+		parsexmlDom(data);
 		
 		postMessage({"data":res.responseText});
 	})
@@ -62,7 +64,26 @@ function load(url, callback) {
 }
 
 
+function parsexmlDom(xml_str){
+	var parser = new DOMImplementation();
 
+//load the XML into the parser and get the DOMDocument
+var domDoc = parser.loadXML(xml_str);
+var docRoot = domDoc.getDocumentElement();
+eachNode(docRoot);
+debugger;
+
+function eachNode(node){
+	var childs=node.childNodes;
+	for(var i=0;i<childs.length;i++){
+		var child=childs.item(i);
+		console.log(child.nodeName);
+		eachNode(child);
+	}
+	
+  
+}
+}
 
 //处理xml相关，worker中不能访问dom 所以采取sax的方式
 
@@ -173,6 +194,8 @@ function startParser(ixml) {
 
     // get errors from sax2 parser
     var err='\n'+handler.getError();
+
+ 
 
     xmlTextArray=handler.getText_Array()
     xmlCDataArray=handler.getCDATA_Array()
@@ -301,6 +324,8 @@ xmlHandler.prototype.endDocument = function() {
     	end of document parsing - last event triggered by the sax2 parser
 
     ************************************************************************************/
+
+     console.log("111"+"endDocument");
 
 } // end function end Document
 
