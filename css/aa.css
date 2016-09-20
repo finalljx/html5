@@ -1,0 +1,16 @@
+html,body{
+  margin:0px;
+}
+
+
+
+
+.container{
+  width:100%;
+}
+.row{
+  margin:0 -15px;
+}
+.col-md-1,col-md-2,col-md-3{
+  padding:0px 15px;
+}
