@@ -19,6 +19,9 @@ html{
 
 body {
     margin: 0px;
+    font-family:"Helvetica Neue",helvetica,Microsoft Yahei,Hiragino Sans GB,sans-serif;
+    font-size:14px;
+    line-height:1.428;
 }
 
 .container {
@@ -26,6 +29,9 @@ body {
     padding-left: 15px;
     margin-left: auto;
     margin-right: auto;
+}
+.container-fluid{
+  width:100%;
 }
 
 .row {
@@ -101,6 +107,44 @@ body {
 }
 
 
+.col-offset-1{
+  width:8.3333333%;
+}
+.col-offset-2{
+  width:12.66666%;
+}
+.col-offset-3{
+  width:25%;
+}
+.col-offset-4{
+  width:33.33333%;
+}
+.col-offset-5{
+  width:41.66666%;
+}
+.col-offset-6{
+  width:50%;
+}
+.col-offset-7{
+  width:58.33333%;
+}
+.col-offset-8{
+  width:66.66666%;
+}
+.col-offset-9{
+  width:75%;
+}
+.col-offset-10{
+  width:83.33333%;
+}
+.col-offset-11{
+  width:91.66666%;
+}
+.col-offset-12{
+  width:100%;
+}
+
+
 
 
 .row:before,
@@ -115,4 +159,32 @@ body {
 .row:before,
 .row:after {
   clear:both;
+}
+
+h1,
+.h1{
+  font-size:36px;
+}
+h2,
+.h2{
+  font-size:30px;
+}
+h3,
+.h3{
+  font-size:24px;
+}
+h4,
+.h4{
+  font-size:18px;
+}
+h5,
+.h5{
+  font-size:14px;
+}
+h6,
+.h6{
+  font-size:12px;
+}
+h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6{
+  font-size:
 }
