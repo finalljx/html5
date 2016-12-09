@@ -1,7 +1,9 @@
-html{
-  font-family:sans-serif;
-  -webkit-text-size-adjust:100%;
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
 }
+
+
 /*字体相关*/
 
 * {
@@ -19,29 +21,32 @@ html{
 
 body {
     margin: 0px;
-    font-family:"Helvetica Neue",helvetica,Microsoft Yahei,Hiragino Sans GB,sans-serif;
-    font-size:14px;
-    line-height:1.428;
+    font-family: "Helvetica Neue", helvetica, Microsoft Yahei, Hiragino Sans GB, sans-serif;
+    font-size: 14px;
+    line-height: 1.428;
 }
 
 mark {
-  color:#000;
-  background:#ff0;
+    color: #000;
+    background: #ff0;
 }
+
 .container {
     padding-right: 15px;
     padding-left: 15px;
     margin-left: auto;
     margin-right: auto;
 }
-.container-fluid{
-  width:100%;
+
+.container-fluid {
+    width: 100%;
 }
 
 .row {
     margin-left: -15px;
     margin-right: -15px;
 }
+
 .col-md-1,
 .col-md-2,
 .col-md-3,
@@ -54,8 +59,9 @@ mark {
 .col-md-10,
 .col-md-11,
 .col-md-12 {
-  float:left;
+    float: left;
 }
+
 .col-md-1,
 .col-md-2,
 .col-md-3,
@@ -68,133 +74,171 @@ mark {
 .col-md-10,
 .col-md-11,
 .col-md-12 {
-  position:relative;
-  min-height:1px;
-  padding-left:15px;
-  padding-right:15px;
-}
-.col-md-1{
-  width:8.3333333%;
-}
-.col-md-2{
-  width:12.66666%;
-}
-.col-md-3{
-  width:25%;
-}
-.col-md-4{
-  width:33.33333%;
-}
-.col-md-5{
-  width:41.66666%;
-}
-.col-md-6{
-  width:50%;
-}
-.col-md-7{
-  width:58.33333%;
-}
-.col-md-8{
-  width:66.66666%;
-}
-.col-md-9{
-  width:75%;
-}
-.col-md-10{
-  width:83.33333%;
-}
-.col-md-11{
-  width:91.66666%;
-}
-.col-md-12{
-  width:100%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-
-.col-offset-1{
-  width:8.3333333%;
-}
-.col-offset-2{
-  width:12.66666%;
-}
-.col-offset-3{
-  width:25%;
-}
-.col-offset-4{
-  width:33.33333%;
-}
-.col-offset-5{
-  width:41.66666%;
-}
-.col-offset-6{
-  width:50%;
-}
-.col-offset-7{
-  width:58.33333%;
-}
-.col-offset-8{
-  width:66.66666%;
-}
-.col-offset-9{
-  width:75%;
-}
-.col-offset-10{
-  width:83.33333%;
-}
-.col-offset-11{
-  width:91.66666%;
-}
-.col-offset-12{
-  width:100%;
+.col-md-1 {
+    width: 8.3333333%;
 }
 
+.col-md-2 {
+    width: 12.66666%;
+}
 
+.col-md-3 {
+    width: 25%;
+}
 
+.col-md-4 {
+    width: 33.33333%;
+}
+
+.col-md-5 {
+    width: 41.66666%;
+}
+
+.col-md-6 {
+    width: 50%;
+}
+
+.col-md-7 {
+    width: 58.33333%;
+}
+
+.col-md-8 {
+    width: 66.66666%;
+}
+
+.col-md-9 {
+    width: 75%;
+}
+
+.col-md-10 {
+    width: 83.33333%;
+}
+
+.col-md-11 {
+    width: 91.66666%;
+}
+
+.col-md-12 {
+    width: 100%;
+}
+
+.col-offset-1 {
+    width: 8.3333333%;
+}
+
+.col-offset-2 {
+    width: 12.66666%;
+}
+
+.col-offset-3 {
+    width: 25%;
+}
+
+.col-offset-4 {
+    width: 33.33333%;
+}
+
+.col-offset-5 {
+    width: 41.66666%;
+}
+
+.col-offset-6 {
+    width: 50%;
+}
+
+.col-offset-7 {
+    width: 58.33333%;
+}
+
+.col-offset-8 {
+    width: 66.66666%;
+}
+
+.col-offset-9 {
+    width: 75%;
+}
+
+.col-offset-10 {
+    width: 83.33333%;
+}
+
+.col-offset-11 {
+    width: 91.66666%;
+}
+
+.col-offset-12 {
+    width: 100%;
+}
 
 .row:before,
 .row:after,
 .clear:before,
 .clearfix:after {
-  display:table;
-  content:" ";
+    display: table;
+    content: " ";
 }
+
 .clearfix:before,
 .clearfix:after,
 .row:before,
 .row:after {
-  clear:both;
+    clear: both;
 }
 
 h1,
-.h1{
-  font-size:36px;
+.h1 {
+    font-size: 36px;
 }
+
 h2,
-.h2{
-  font-size:30px;
+.h2 {
+    font-size: 30px;
 }
+
 h3,
-.h3{
-  font-size:24px;
+.h3 {
+    font-size: 24px;
 }
+
 h4,
-.h4{
-  font-size:18px;
+.h4 {
+    font-size: 18px;
 }
+
 h5,
-.h5{
-  font-size:14px;
+.h5 {
+    font-size: 14px;
 }
+
 h6,
-.h6{
-  font-size:12px;
+.h6 {
+    font-size: 12px;
 }
-h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6{
-  font-family:inherit;
-  font-weight:500;
-  line-height:1.1;
-  color:inherit;
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
 }
+
 h1 small,
 h2 small,
 h3 small,
@@ -218,12 +262,10 @@ h6 .small,
 .h3 .small,
 .h4 .small,
 .h5 .small,
-.h6 .small 
-{
-
-  font-weight:normal;
-  line-height:1;
-  color:#777;
+.h6 .small {
+    font-weight: normal;
+    line-height: 1;
+    color: #777;
 }
 
 h1 small,
@@ -237,10 +279,8 @@ h3 .small,
 .h2 small,
 .h2 .small,
 .h3 small,
-.h3 .small
-{
-  font-size:65%;
-
+.h3 .small {
+    font-size: 65%;
 }
 
 h4 small,
@@ -255,43 +295,96 @@ h6 .small,
 .h4 .small,
 .h5 .small,
 .h6 .small {
-  font-size:75%;
+    font-size: 75%;
 }
+
 small,
-.small{
-  font-size:80%;
+.small {
+    font-size: 80%;
 }
 
 mark,
-.mark{
-  padding:.2em;
-  background-color:#fcf8e3;
+.mark {
+    padding: .2em;
+    background-color: #fcf8e3;
 }
+
+
 /*
  * 对齐
  * */
+
 .text-left {
-  
-    text-align:left;
-  }
-  .text-center{
-    text-align:center;
-  }
-  .text-right{
-    text-align:right;
-  }
-  .text-justify{
-    text-align:text-justify;
-  }
-  .text-nowrap {
-    white-space:nowrap;
-  }
-  .text-lowercase {
-    text-transform:lowercase;
-  }
-  .text-uppercase{
-    text-transform:uppercase;
-  }
-  .text-capitalize{
-    text-transform:capitalize;
-  }
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: text-justify;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+}
+
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+
+/*
+ * 表格相关样式
+ *
+ * */
+
+table {
+    background-color: transparent;
+}
+
+th {
+    text-align: left;
+}
+
+.table {
+    border-collapse: collapse !important;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #ddd !important;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.table>thead>tr>th,
+.table>tbody>tr>td,
+.table>tfoot>tr>td {
+    border-top: 1px solid #ddd;
+    line-height: 1.4285;
+    vertical-align: top;
+    padding: 8px;
+}
+
+.table>thead>tr>th {
+    border-top: 0px;
+    border-bottom: 2px solid #ddd;
+}
